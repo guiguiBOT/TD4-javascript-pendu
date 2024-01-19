@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #FFE6A7 ;
+    font-family: 'Acme', sans-serif;
+    user-select: none;
+}
+
+h1 {
+    text-align: center;
+    color: #99582A;
+    text-shadow: 1px 2px 3px #432818 ;
+    margin-top: 10px;
+    font-size: 3.2em;
+    letter-spacing: 10px;
+}
+
+#navContainer {
+    color: #99582A;
+    text-shadow: 1px 2px 3px #432818 ;
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+}
+
+#startButton {
+    margin-right: 10px;
+}
+
+#startButton:hover {
+    color: #BB9457;
+    cursor: pointer;
+}
+
+#startButton:active {
+    color: #9e2a2b;
+}
+
+#replayButton {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#replayButton:hover {
+    color: #BB9457;
+    cursor: pointer;
+}
+
+#replayButton:active {
+    color: #9e2a2b;
+}
+
+#apiVersionButton {
+    margin-left: 10px;
+}
+
+#apiVersionButton:hover {
+    color: #BB9457;
+    cursor: pointer;
+}
+
+#apiVersionButton:active {
+    color: #9e2a2b;
+}
+
+#mainContainer {
+    display: flex;
+    justify-content: center;
+}
+
+#mainRightContainer {
+    display: flex;
+    justify-content: center;
+}
+
+
+#gameField {
+    color: #99582A;
+    font-size: 4em;
+    letter-spacing: 10px;
+    height: 81px;
+    display: flex;
+    justify-content: left;
+    margin-top: 50px;
+}
+
+#messageContainer {
+    min-width: 600px;
+    height: 60%;
+    margin-top: 25px;
+    background-color: #6F1D1B80;
+    border: 7px solid #9c5831;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+#messageContainer p {
+    margin-top: 35px;
+    font-size: 2em;
+    color: #99582A;
+    text-align: center;
+}
+
+#messageContainer #solution {
+    font-size: 5em;
+}
+
+#letterContainer {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    padding: 0 25px 0 25px;
+    margin-top: 10px;
+}
+
+.letter {
+    display: flex;
+    justify-content: center;
+    font-size: 1.5em;
+    color: #99582A;
+    width: 30px;
+    padding: 5px;
+    border: 1px solid #99582A;
+    border-radius: 5px;
+}
+
+.letter:hover {
+    background-color: #BB9457 ;
+    cursor: pointer;
+}
+
+.letter:active {
+    background-color: #6F1D1B;
+    color: #FFE6A7 ;
+}

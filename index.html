@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/CSS/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Acme&family=Indie+Flower&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header id="headerContainer">
+        <h1 id="h1Container">JEU DU PENDU</h1>
+        <nav id="navContainer">
+            <div id="startButton">START</div>
+            <div id="replayButton">PLAY AGAIN</div>
+            <div id="apiVersionButton">RANDOM</div>
+        </nav>
+    </header>
+    <main>
+        <div id="mainContainer">
+            <div id="imgContainer">
+                <img id="imgPendu" src="./assets/img/pendu-11.png" alt="image du pendu">
+            </div>
+            <div id="mainRightContainer">
+                <div id="gameFieldContainer">
+                    <p id="gameField">b-l-nç----------</p>
+                    <div id="messageContainer">
+                        <div id="message">
+                            <p id="wordWas">LE MOT ETAIT :</p>
+                            <p id="solution">Balançoire</p>
+                            <p id="winLost">VOUS AVEZ PERDU !</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="letterContainer"></div>
+
+    </main>
+
+
+    <script src="./assets/js/main-random.js"></script>
+</body>
+
+</html>
